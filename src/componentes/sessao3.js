@@ -6,7 +6,6 @@ import banco from '../img/banco.png'
 
 function sessao3(){
     return(
-        <div className={Style.fonte}>
             <div className={Style.fundo3}>
                 
                 <h1 className={Style.titulo2}>Soluções <span className={Style.color}>inteligentes</span> para um mundo automatizado</h1>
@@ -30,7 +29,6 @@ function sessao3(){
                     <p className={Style.descricao4}>faça grandes coisas todos os dias</p>
                 </div>
             </div>
-        </div>
     )
 }
 
