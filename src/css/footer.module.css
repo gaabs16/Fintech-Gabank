@@ -1,0 +1,104 @@
+* {
+	padding: 0;
+	margin: 0;
+	padding: 0;
+	box-shadow: border-box;
+}
+
+.fundo5{
+	background-image: url(../img/footer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	height: 320px;
+}
+
+.logo_footer{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.social{
+    color: #fff;
+    width: 300px;
+    font-size: 40px;
+    margin-left: 200px;
+    text-transform: uppercase;
+}
+
+.redes{
+    margin-left: 190px;
+}
+
+.redes img{
+    margin-left: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.redes img:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.produtos{
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.sessao1{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.sessao1 ul{
+    color: #fff;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.sessao1 li{
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    
+}
+
+.sessao1 li:hover{
+    text-decoration: underline;
+}
+
+.footer_nome{
+    width: 100%;
+    height: auto;
+    margin-top: 105px;
+}
+
+.footer_nome h6{
+    font-size: 20px;
+    letter-spacing: 1.0px;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+}
+
+
+.color{
+    background: linear-gradient(to right, #6c35db, #0cf2c8);
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+
+

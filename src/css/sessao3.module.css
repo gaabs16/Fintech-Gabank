@@ -1,0 +1,101 @@
+@font-face {
+	font-family: 'baloo2-regular';
+	src: url(../fonte/baloo-2/Baloo2-Regular.ttf);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	padding: 0;
+	box-shadow: border-box;
+}
+
+.fonte{
+	font-family: 'baloo2-regular';
+}
+
+.fundo3{
+	background-image: url(../img/fundo3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+    flex-direction: column;
+	height: 980px;
+}
+
+.titulo2{
+	width: 700px;
+	height: 300px;
+    color: #fff;
+    font-size: 45px;
+    text-transform: uppercase;
+	margin-left: 350px;
+	margin-top: 30px;
+}
+
+.color{
+    background: linear-gradient(to right, #6c35db, #0cf2c8);
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.porquinho{
+	width: 300px;
+	height: 390px;
+	margin-left: 400px;
+	border-bottom: solid #fff;
+	border-right: solid #fff;
+}
+
+.porquinho img, .cartao1 img, .cartao2 img, .banco img{
+	display: flex;
+	flex-direction: start;
+}
+
+.cartao2 img, .banco img{
+	margin-left: 30px;
+}
+
+.descricao1, .descricao2, .descricao3, .descricao4{
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.descricao2{
+	margin-left: -20px;
+}
+
+.descricao3, .descricao4{
+	margin-left: 30px;
+}
+
+.cartao1{
+	width: 300px;
+	height: 600px;
+	margin-left: 400px;
+	border-right: solid #fff;
+	margin-top: -200px;
+}
+
+.cartao2{
+	width: 300px;
+	height: 500px;
+	margin-left: 700px;
+	border-bottom: solid #fff;
+	border-left: solid #fff;
+}
+
+.banco{
+	width: 300px;
+	height: 550px;
+	margin-left: 700px;
+	border-left: solid #fff;
+	margin-top: -50px;
+}
+
+
+
