@@ -1,17 +1,11 @@
-@font-face {
-	font-family: 'baloo2';
-	src: url(../fonte/baloo-2/Baloo2-Bold.ttf);
-}
-
-*{
+* {
 	padding: 0;
 	margin: 0;
 	padding: 0;
 	box-shadow: border-box;
-	font-family: 'baloo2';
 }
 
-.fundo1{
+.fundo_sobre{
 	background-image: url(../img/fundo1.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -41,40 +35,8 @@
 	font-weight: bold;
 	font-size: 60px;
 	margin-top: 200px;
-	margin-left: -180px;
 }
 
-.descricao{
-	color: #393939;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 30px;
-	margin-top: 30px;
-	margin-left: -100px;
-	text-align: start;
-}
-
-.botao1{
-	margin-top: 30px;
-	margin-left: -300px;
-	width: 200px;
-	font-size: 20px;
-	padding: 10px;
-	border-radius: 10px;
-	background: linear-gradient(to left,#6C35DB, #F8005A);
-	color: #fff;
-	cursor: pointer;
-	font-weight: bold;
-	text-transform: uppercase;
-	transition: all 0.5s;
-	border: 0;
-}
-
-.botao1:hover{
-	background: linear-gradient(to bottom,#F8005A,#6C35DB);
-    border: 1px solid #fff;
-	transform: scale(1.1, 1.1);
-}
 
 .menu{
 	list-style: none;
@@ -120,25 +82,3 @@
 	width: 60px;
 	height: 40px;
 }
-
-.cartao{
-	margin-left: -500px;
-	margin-top: 150px;
-}
-
-.cartao img{
-	width: 500px;
-	height: 400px;
-} 
-
-
-
-
-
-
-
-
-
-
-
-
