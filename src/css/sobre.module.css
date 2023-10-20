@@ -5,10 +5,65 @@
 	box-shadow: border-box;
 }
 
-.fundo5{
+.fundo_sobre{
 	background-image: url(../img/sobre_fundo.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
-	height: 780px;
+	height: 800px;
 }
+
+.texto{
+	width: 800px;
+	height: 200px;
+}
+
+.titulo{
+	background: linear-gradient(to bottom,#F8005A,#6C35DB);
+	color: transparent;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 60px;
+	margin-top: 180px;
+	margin-left: 550px;
+}
+
+.descricao7{
+	display: flex;
+	width: 500px;
+	height: 200px;
+	color: #fff;
+	margin-left: 70px;
+}
+
+.mulher_cartao img{
+	display: flex;
+	margin-top: 200px;
+	width: 750px;
+	height: 600px;
+	margin-left: -220px;
+}
+
+.botao5{
+	margin-top: 120px;
+	width: 300px;
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 10px;
+	background: linear-gradient(to left,#6C35DB, #F8005A);
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition: all .3s;
+	border: 0;
+	margin-left: -180px;
+}
+
+.botao5:hover{
+	background: linear-gradient(to bottom,#F8005A,#6C35DB);
+    border: 1px solid #fff;
+	transform: scale(1.1, 1.1);
+}
+

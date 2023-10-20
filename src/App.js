@@ -5,6 +5,7 @@ import Acesso from './componentes/sessao2';
 import Solucoes from './componentes/sessao3';
 import Missoes from './componentes/sessao4';
 import Footer from './componentes/footer';
+import Sobre from './componentes/sobre';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Solucoes />
       <Missoes />
       <Footer />
+      <Sobre />
     </div>
   );
 }
