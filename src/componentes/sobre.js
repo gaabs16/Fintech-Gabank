@@ -1,24 +1,11 @@
 import Style from '../css/sobre.module.css'
-import Logo from '../img/logo.png'
-import Hamburguer from '../img/hamburguer.png'
+import Header from './header';
 import cartao from '../img/mulher-cartao.png'
 
 function sobre(){
     return(
-        <div classname={Style.fundo_sobre}>
-            <div className={Style.logo}>
-                <img src={Logo} alt="Logo" />
-            </div>
-            <header>
-                <nav className={Style.menu}>
-                    <li><button className={Style.botao2}>Para Você</button></li>
-                    <li><button className={Style.botao2}>Sobre Nós</button></li>
-                    <div className={Style.hamburguer}>
-                        <img src={Hamburguer} alt="hamburguer" />
-                    </div>
-                </nav>
-            </header>
-        
+        <div classname={Style.fundo5}>
+            <Header />
             <div className={Style.tudo3}>
                     <section className={Style.texto}>
                         <h1 className={Style.titulo}>Gabank</h1>

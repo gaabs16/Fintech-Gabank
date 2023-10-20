@@ -19,18 +19,10 @@
 	height: 780px;
 }
 
-.logo{
-	width: 100px;
-	height: 100px;
-	display: flex;
-	margin-left: 100px;
-	margin-top: 20px;
-	cursor: pointer;
-}
-
 .texto{
-	width: 300px;
+	width: 400px;
 	height: 150px;
+	margin-left: 80px;
 }
 
 .titulo{
@@ -40,8 +32,7 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 60px;
-	margin-top: 200px;
-	margin-left: -180px;
+	margin-top: 180px;
 }
 
 .descricao{
@@ -49,15 +40,11 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 30px;
-	margin-top: 30px;
-	margin-left: -100px;
 	text-align: start;
 }
 
 .botao1{
-	margin-top: 30px;
-	margin-left: -300px;
-	width: 200px;
+	width: 280px;
 	font-size: 20px;
 	padding: 10px;
 	border-radius: 10px;
@@ -76,61 +63,10 @@
 	transform: scale(1.1, 1.1);
 }
 
-.menu{
-	list-style: none;
-	display: flex;
-	margin-left: 200px;
-	margin-top: 50px;
-}
-
-.botao2{
-	width: 200px;
-	padding: 10px;
-	border: 2px solid #fff;
-	border-radius: 10px;
-	color: #fff;
-	background-color: #16141D;
-	cursor: pointer;
-	margin-left: 30px;
-	font-weight: bold;
-	text-transform: uppercase;
-	transition: all 0.5s;
-	font-size: 18px;
-}
-
-.botao2:hover{
-	border: 2px solid #000;
-	background-color: #fff;
-	color: #000;
-}
-
-.botao2:active{
-	border: 2px solid #fff;
-	color: #fff;
-	background-color: #16141D;
-}
-
-.hamburguer{
-	margin-left: 20px;
-	margin-top: 5px;
-	cursor: pointer;
-}
-
-.hamburguer img{
-	width: 60px;
-	height: 40px;
-}
-
 .cartao{
-	margin-left: -500px;
-	margin-top: 150px;
+	margin-top: -380px;
+	margin-left: 600px;
 }
-
-.cartao img{
-	width: 500px;
-	height: 400px;
-} 
-
 
 
 
