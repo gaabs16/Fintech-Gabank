@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import Style from '../css/header.module.css'
 import Logo from '../img/logo.png'
 import Hamburguer from '../img/hamburguer.png'
@@ -10,8 +11,8 @@ function Header(){
             </div>
             <header>
                 <nav className={Style.menu}>
-                    <li><button className={Style.botao2}>Para Você</button></li>
-                    <li><button className={Style.botao2}>Sobre Nós</button></li>
+                    <li><Link to='/'><button className={Style.botao2}>Para Você</button></Link></li>
+                    <li><Link to='/Sobre'><button className={Style.botao2}>Sobre Nós</button></Link></li>
                     <div className={Style.hamburguer}>
                         <img src={Hamburguer} alt="hamburguer" />
                     </div>
