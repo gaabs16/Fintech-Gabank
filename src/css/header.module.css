@@ -18,7 +18,7 @@
 }
 
 .logo img{
-	width: 140px;
+	width: clamp(9rem, 1vw, 13rem);
 	height: 100px;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .hamburguer img{
-	width: 60px;
+	width: clamp(4rem, 1vw, 13rem);
 	height: 40px;
 }
 
@@ -52,7 +52,7 @@
 	font-weight: bold;
 	text-transform: uppercase;
 	transition: all 0.5s;
-	font-size: 18px;
+	font-size: clamp(1.1rem, 3vw, 1rem);
 }
 
 .botao2:hover{
@@ -67,5 +67,45 @@
 	background-color: #16141D;
 }
 
-/* responsividade pc */
+/*desktops - higher resolution*/
+@media (min-width: 1281px){
+	.fundo_header{
+		width: 100%;
+		height: auto;
+	}
+}
 
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px){
+	.fundo_header{
+		width: 100%;
+		height: auto;
+	}
+
+}
+
+/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px){
+	.fundo_header{
+		width: 100%;
+		height: auto;
+	}
+
+	.logo{
+		margin-left: 0;
+	}
+
+	.menu{
+		margin-left: 30px;
+	}
+}
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px){
+	
+}
+
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px){
+
+}
